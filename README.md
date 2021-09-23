@@ -1,4 +1,4 @@
-# DJSTemplate
+# DJSTemplate Discord.js@12
 DJSTemplate :)
 
 
