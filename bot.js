@@ -11,7 +11,7 @@ app.use('/', express.static(path.join(__dirname, 'public')))
 app.listen(port)
 
 client.on('message', message => {
-    const prefix = 'YOURPREFIX';
+    const prefix = 'na!';
     if (!message.content.startsWith(prefix) || message.author.bot) return;
     const args = message.content.slice(prefix.length).split(/ +/);
     const cmd = args.shift().toLowerCase();
